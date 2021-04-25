@@ -13,6 +13,12 @@
 		A7FD256F2635D0C500464B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD256D2635D0C500464B8D /* Main.storyboard */; };
 		A7FD25712635D0C500464B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25702635D0C500464B8D /* Assets.xcassets */; };
 		A7FD25742635D0C500464B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25722635D0C500464B8D /* LaunchScreen.storyboard */; };
+		A7FD257E2635D16B00464B8D /* CALayer+borderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD257D2635D16B00464B8D /* CALayer+borderColor.m */; };
+		A7FD25802635D65500464B8D /* 清松手寫體2jas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7FD257F2635D65500464B8D /* 清松手寫體2jas.ttf */; };
+		A7FD25822635E1CF00464B8D /* dice_shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25812635E1CF00464B8D /* dice_shake.mp3 */; };
+		A7FD25842635E1D200464B8D /* cash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25832635E1D200464B8D /* cash.mp3 */; };
+		A7FD25862635E1D500464B8D /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25852635E1D500464B8D /* lose.mp3 */; };
+		A7FD25882635E1D700464B8D /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7FD25872635E1D700464B8D /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		A7FD25702635D0C500464B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7FD25732635D0C500464B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7FD25752635D0C500464B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD257B2635D16B00464B8D /* dices-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dices-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7FD257C2635D16B00464B8D /* CALayer+borderColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+borderColor.h"; sourceTree = "<group>"; };
+		A7FD257D2635D16B00464B8D /* CALayer+borderColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+borderColor.m"; sourceTree = "<group>"; };
+		A7FD257F2635D65500464B8D /* 清松手寫體2jas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "清松手寫體2jas.ttf"; sourceTree = "<group>"; };
+		A7FD25812635E1CF00464B8D /* dice_shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice_shake.mp3; sourceTree = "<group>"; };
+		A7FD25832635E1D200464B8D /* cash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cash.mp3; sourceTree = "<group>"; };
+		A7FD25852635E1D500464B8D /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		A7FD25872635E1D700464B8D /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +54,11 @@
 		A7FD255B2635D0C500464B8D = {
 			isa = PBXGroup;
 			children = (
+				A7FD257C2635D16B00464B8D /* CALayer+borderColor.h */,
+				A7FD257D2635D16B00464B8D /* CALayer+borderColor.m */,
 				A7FD25662635D0C500464B8D /* dices */,
 				A7FD25652635D0C500464B8D /* Products */,
+				A7FD257B2635D16B00464B8D /* dices-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 		A7FD25662635D0C500464B8D /* dices */ = {
 			isa = PBXGroup;
 			children = (
+				A7FD257F2635D65500464B8D /* 清松手寫體2jas.ttf */,
 				A7FD25672635D0C500464B8D /* AppDelegate.swift */,
 				A7FD25692635D0C500464B8D /* SceneDelegate.swift */,
 				A7FD256B2635D0C500464B8D /* ViewController.swift */,
@@ -63,6 +81,10 @@
 				A7FD25702635D0C500464B8D /* Assets.xcassets */,
 				A7FD25722635D0C500464B8D /* LaunchScreen.storyboard */,
 				A7FD25752635D0C500464B8D /* Info.plist */,
+				A7FD25812635E1CF00464B8D /* dice_shake.mp3 */,
+				A7FD25832635E1D200464B8D /* cash.mp3 */,
+				A7FD25852635E1D500464B8D /* lose.mp3 */,
+				A7FD25872635E1D700464B8D /* win.mp3 */,
 			);
 			path = dices;
 			sourceTree = "<group>";
@@ -98,6 +120,7 @@
 				TargetAttributes = {
 					A7FD25632635D0C500464B8D = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -126,7 +149,12 @@
 			files = (
 				A7FD25742635D0C500464B8D /* LaunchScreen.storyboard in Resources */,
 				A7FD25712635D0C500464B8D /* Assets.xcassets in Resources */,
+				A7FD25802635D65500464B8D /* 清松手寫體2jas.ttf in Resources */,
+				A7FD25882635E1D700464B8D /* win.mp3 in Resources */,
+				A7FD25822635E1CF00464B8D /* dice_shake.mp3 in Resources */,
+				A7FD25862635E1D500464B8D /* lose.mp3 in Resources */,
 				A7FD256F2635D0C500464B8D /* Main.storyboard in Resources */,
+				A7FD25842635E1D200464B8D /* cash.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FD256C2635D0C500464B8D /* ViewController.swift in Sources */,
+				A7FD257E2635D16B00464B8D /* CALayer+borderColor.m in Sources */,
 				A7FD25682635D0C500464B8D /* AppDelegate.swift in Sources */,
 				A7FD256A2635D0C500464B8D /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = dices/Info.plist;
@@ -295,6 +325,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jhen.dices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dices-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = dices/Info.plist;
@@ -314,6 +347,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jhen.dices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dices-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
